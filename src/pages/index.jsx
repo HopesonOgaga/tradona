@@ -5,6 +5,7 @@ import TradingViewWidget from "../api/tape";
 import LiveMarket from "../api/livemarket";
 import FAQ from "../components/faq";
 import Team from "../components/team";
+import Testimony from "../components/testimony";
 
 function Home() {
   return (
@@ -129,6 +130,7 @@ function Home() {
         </div>
       </section>
       <section><Team></Team></section>
+      <section><Testimony></Testimony></section>
       {/* FAQ */}
       <section>
         <FAQ />
