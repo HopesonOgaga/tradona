@@ -25,11 +25,14 @@ function Home() {
             <span className="font-semibold text-white">
               50,000 verified traders
             </span>{" "}
-            who trust CryptoPro for secure and efficient crypto trading.
+            who trust CryptoFXtradePro for secure and efficient crypto trading.
           </p>
-          <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition duration-200 shadow-md">
-            Start Trading Now
-          </button>
+          <a
+            href="../auth/register.php"
+            className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition duration-200 shadow-md"
+          >
+            Get Started
+          </a>
         </div>
       </section>
 
@@ -129,8 +132,10 @@ function Home() {
           <LiveMarket />
         </div>
       </section>
-      <section><Team></Team></section>
-      <section><Testimony></Testimony></section>
+
+      <section><Team /></section>
+      <section><Testimony /></section>
+
       {/* FAQ */}
       <section>
         <FAQ />

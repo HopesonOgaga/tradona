@@ -9,28 +9,27 @@ function NavBar() {
       {/* Desktop View */}
       <section className="hidden md:flex justify-between items-center px-4 py-3 bg-white shadow-sm">
         <div>
-          <p className="text-xl font-bold capitalize">crypto trade</p>
+          <p className="text-xl font-bold capitalize">cryptofxtradepro</p>
         </div>
         <div className="flex gap-3">
-          <button
+          <a
+            href="../auth/"
             className="text-center bg-blue-600 text-white py-2 px-4 rounded-md font-semibold hover:opacity-90 transition"
           >
-            Sign In
-          </button>
-          <button
+            Login
+          </a>
+          <a
+            href="../auth/register.php"
             className="text-center border border-black py-2 px-4 rounded-md font-semibold text-black hover:bg-gray-100 transition"
           >
-            Log In
-          </button>
+            Register
+          </a>
         </div>
-        {/* <div>
-          <p className="text-xl capitalize cursor-pointer">get started</p>
-        </div> */}
       </section>
 
       {/* Mobile Top Bar */}
       <section className="flex justify-between items-center md:hidden px-4 py-3 bg-white shadow-md">
-        <p className="text-xl font-bold capitalize">crypto trade</p>
+        <p className="text-xl font-bold capitalize">cryptofxtradepro</p>
         <Menu className="w-7 h-7 cursor-pointer" onClick={() => setIsOpen(true)} />
       </section>
 
@@ -45,24 +44,20 @@ function NavBar() {
           <X className="w-6 h-6 cursor-pointer" onClick={() => setIsOpen(false)} />
         </div>
         <div className="flex flex-col gap-4 p-6">
-          <button
+          <a
+            href="../auth/"
             className="text-center bg-blue-600 text-white py-2 rounded-md font-semibold hover:opacity-90 transition"
             onClick={() => setIsOpen(false)}
           >
-            Sign In
-          </button>
-          <button
+            Login
+          </a>
+          <a
+            href="../auth/register.php"
             className="text-center border border-black py-2 rounded-md font-semibold text-black hover:bg-gray-100 transition"
             onClick={() => setIsOpen(false)}
           >
-            Log In
-          </button>
-          {/* <p
-            className="text-lg font-semibold capitalize pt-4 border-t hover:text-blue-500 cursor-pointer"
-            onClick={() => setIsOpen(false)}
-          >
-            get started
-          </p> */}
+            Register
+          </a>
         </div>
       </div>
 

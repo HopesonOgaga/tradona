@@ -3,12 +3,12 @@ import { ChevronDown, ChevronUp } from "lucide-react";
 
 const faqData = [
   {
-    question: "Why should I trust CryptoPro with my investments?",
+    question: "Why should I trust Cryptofxtradepro with my investments?",
     answer:
       "Over 50,000 verified traders trust us. We offer secure wallets, regulatory compliance, and 24/7 protection of your digital assets.",
   },
   {
-    question: "What makes CryptoPro better than other trading platforms?",
+    question: "What makes Cryptofxtradepro better than other trading platforms?",
     answer:
       "We combine institutional-grade features with an easy-to-use interface, offering you both power and simplicity. Plus, 99.9% uptime means you're always in the market.",
   },
@@ -40,7 +40,7 @@ const FAQ = () => {
     <section className="bg-white py-16 px-6">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
-          Why Invest With CryptoPro?
+          Why Invest With Cryptofxtradepro?
         </h2>
         <div className="space-y-4">
           {faqData.map((item, idx) => {

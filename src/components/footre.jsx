@@ -13,7 +13,7 @@ function Footer() {
       <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8">
         {/* Brand */}
         <div className="col-span-2 md:col-span-1">
-          <h2 className="text-xl font-bold mb-2 capitalize">crypto trade</h2>
+          <h2 className="text-xl font-bold mb-2 capitalize">cryptofxtradepro</h2>
           <p className="text-sm text-blue-100">Trade crypto with confidence.</p>
         </div>
 
@@ -39,7 +39,7 @@ function Footer() {
 
       {/* Bottom Bar */}
       <div className="bg-blue-700 text-center text-sm py-4 px-4 text-blue-200">
-        © {new Date().getFullYear()} crypto trade. All rights reserved.
+        © {new Date().getFullYear()} cryptofxtradepro. All rights reserved.
       </div>
     </footer>
   );
