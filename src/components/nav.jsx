@@ -13,13 +13,13 @@ function NavBar() {
         </div>
         <div className="flex gap-3">
           <a
-            href="../auth/"
+            href="https://cryptofxtradepro.com/auth/"
             className="text-center bg-blue-600 text-white py-2 px-4 rounded-md font-semibold hover:opacity-90 transition"
           >
             Login
           </a>
           <a
-            href="../auth/register.php"
+            href="https://cryptofxtradepro.com/auth/register.php"
             className="text-center border border-black py-2 px-4 rounded-md font-semibold text-black hover:bg-gray-100 transition"
           >
             Register
@@ -45,14 +45,14 @@ function NavBar() {
         </div>
         <div className="flex flex-col gap-4 p-6">
           <a
-            href="../auth/"
+            href="https://cryptofxtradepro.com/auth/"
             className="text-center bg-blue-600 text-white py-2 rounded-md font-semibold hover:opacity-90 transition"
             onClick={() => setIsOpen(false)}
           >
             Login
           </a>
           <a
-            href="../auth/register.php"
+            href="https://cryptofxtradepro.com/auth/register.php"
             className="text-center border border-black py-2 rounded-md font-semibold text-black hover:bg-gray-100 transition"
             onClick={() => setIsOpen(false)}
           >

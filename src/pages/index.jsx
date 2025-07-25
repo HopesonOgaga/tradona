@@ -28,7 +28,7 @@ function Home() {
             who trust CryptoFXtradePro for secure and efficient crypto trading.
           </p>
           <a
-            href="../auth/register.php"
+            href="https://cryptofxtradepro.com/auth/register.php"
             className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition duration-200 shadow-md"
           >
             Get Started
