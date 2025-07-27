@@ -15,7 +15,15 @@ function Home() {
       <TradingViewWidget />
 
       {/* Hero Section */}
-      <section className="flex flex-col items-center justify-center text-center h-[80vh] px-4 bg-gradient-to-br from-blue-500 via-blue-600 to-blue-800 text-white">
+      <section
+        className="flex flex-col items-center justify-center text-center h-[80vh] px-4 bg-gradient-to-br from-blue-500 via-blue-600 to-blue-800 text-white"
+        style={{
+          backgroundImage: "url('/images/elon.jpg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          height: "100vh",
+        }}
+      >
         <div className="max-w-2xl space-y-6">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
             Trade Crypto With <span className="text-white/90">Confidence</span>
@@ -27,6 +35,7 @@ function Home() {
             </span>{" "}
             who trust CryptoFXtradePro for secure and efficient crypto trading.
           </p>
+          {/* link button */}
           <a
             href="https://cryptofxtradepro.com/auth/register.php"
             className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition duration-200 shadow-md"
@@ -133,8 +142,12 @@ function Home() {
         </div>
       </section>
 
-      <section><Team /></section>
-      <section><Testimony /></section>
+      <section>
+        <Team />
+      </section>
+      <section>
+        <Testimony />
+      </section>
 
       {/* FAQ */}
       <section>

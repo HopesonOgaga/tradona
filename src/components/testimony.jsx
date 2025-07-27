@@ -2,61 +2,62 @@ import React from "react";
 
 const testimonies = [
   {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
+    name: "Aria Kim",
+    role: "Lead Blockchain Engineer",
     imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      "https://randomuser.me/api/portraits/women/44.jpg",
     testimony:
-      "Cryptofxtradepro has transformed the way I engage with the crypto market. Its real-time updates, clean UI, and reliable trading features make it my go-to platform. Security is always top-notch, and the community behind it is growing fast. I’ve recommended it to friends and business partners and they all had a great experience.",
+      "The infrastructure behind Cryptofxtradepro is world-class. From the blockchain integrations to real-time trade matching, everything is engineered with precision. We've designed the backend to scale securely while supporting future protocol upgrades. This platform is a dream to work on, and it shows in the seamless user experience we provide to traders every day.",
   },
   {
-    name: "Michael Foster",
-    role: "Co-Founder / CTO",
+    name: "Julian Vega",
+    role: "Senior UX Strategist",
     imageUrl:
-      "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      "https://randomuser.me/api/portraits/men/36.jpg",
     testimony:
-      "As a CTO, I’m impressed by the platform’s speed and reliability. Cryptofxtradepro handles thousands of concurrent users without lag or downtime. Our development team constantly ships new features while maintaining the core integrity of the app. From trading to portfolio tracking, it’s a powerful tool for any level of crypto investor.",
+      "When we designed Cryptofxtradepro, our focus was clarity and control. Users don’t want to fight with interfaces—they want frictionless access to insights and trades. Every button, chart, and interaction is built with intent. We constantly test and iterate based on feedback, and that feedback loop has made the product sharper with each update.",
   },
   {
-    name: "Dries Vincent",
-    role: "Business Relations",
+    name: "Fatima Idris",
+    role: "Marketing Director",
     imageUrl:
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      "https://randomuser.me/api/portraits/women/65.jpg",
     testimony:
-      "Working with institutional partners has been seamless thanks to Cryptofxtradepro’s API and integration capabilities. It’s not just about trading—it’s about building trust and transparency. Clients constantly praise how intuitive and robust our platform is. I believe this will be the benchmark for crypto platforms in the next 5 years.",
+      "Promoting Cryptofxtradepro has been incredibly fulfilling because the product speaks for itself. Our campaigns focus on education and empowerment—helping people understand crypto, not fear it. The community has grown organically because we deliver value consistently. Watching traders share their success stories through our platform is the best marketing we could ask for.",
   },
   {
-    name: "Lindsay Walton",
-    role: "Front-end Developer",
+    name: "Hassan Olamide",
+    role: "Risk & Compliance Officer",
     imageUrl:
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      "https://randomuser.me/api/portraits/men/52.jpg",
     testimony:
-      "Designing and building Cryptofxtradepro has been an incredible experience. Our users love the responsive design and smooth navigation across mobile and desktop. We focus on usability and accessibility, ensuring everyone can trade confidently. It’s rewarding to see the positive feedback from the community—it pushes us to keep improving.",
+      "Compliance and user trust are non-negotiables at Cryptofxtradepro. We operate under strict internal protocols that exceed industry standards, from AML screening to transaction monitoring. Security measures are not just technical—they’re cultural here. Traders can rest easy knowing their assets and data are protected by a system that’s proactive, not reactive.",
   },
   {
-    name: "Courtney Henry",
-    role: "Designer",
+    name: "Emma Laurent",
+    role: "Community Manager",
     imageUrl:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      "https://randomuser.me/api/portraits/women/68.jpg",
     testimony:
-      "Cryptofxtradepro’s visual identity speaks volumes. Our goal was to create a brand that reflects trust, innovation, and professionalism. Every design decision, from colors to typography, was made with purpose. I’m proud of how far we’ve come—users frequently mention how the platform feels modern yet familiar, which is exactly what we aimed for.",
+      "Our users are at the heart of everything we do. Whether it's launching giveaways, AMAs, or educational content, we keep the community informed and engaged. I've witnessed beginners grow into confident investors thanks to the tools and support we offer. It's more than trading—it's a movement, and I'm proud to be part of it.",
   },
   {
-    name: "Tom Cook",
-    role: "Director of Product",
+    name: "Victor Chen",
+    role: "Lead Data Scientist",
     imageUrl:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      "https://randomuser.me/api/portraits/men/88.jpg",
     testimony:
-      "Product development at Cryptofxtradepro revolves around listening to our users. Every feature on the platform—from advanced charting to educational content—came from user feedback. We prioritize simplicity without compromising on power. Crypto trading shouldn’t be complicated, and our team is committed to delivering tools that empower both beginners and pros.",
+      "Behind every trading decision is data. At Cryptofxtradepro, we analyze terabytes of market signals daily to power smart alerts, price predictions, and user insights. Our machine learning models are constantly evolving to adapt to market conditions. We're not just building features—we're giving users a data advantage they can actually use.",
   },
 ];
+
 
 export default function Testimony() {
   return (
     <section className="bg-gray-50 py-20 px-6">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
-          What Our Team Says
+          Testimonies
         </h2>
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
           {testimonies.map((person, index) => (
