@@ -53,7 +53,7 @@ function Btccard() {
           <p className="text-green-600 font-semibold uppercase text-sm">Live</p>
         </div>
       </section>
-
+        <div className="mt-4 "><p className="text-sm font-light italic ">minimun desposit: $550.00</p></div>
       {/* Deposit form */}
       <section className="mt-6 bg-gray-50 p-6 rounded-lg shadow">
         <form className="flex flex-col gap-4">
@@ -64,7 +64,7 @@ function Btccard() {
             className="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-400"
           />
         </form>
-
+      
         {/* Address Section */}
         <div className="mt-6">
           <p className="text-sm text-gray-600">Send to this address:</p>

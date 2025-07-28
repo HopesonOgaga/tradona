@@ -2,8 +2,8 @@ import React from "react";
 
 const info = [
   {
-    image: "https://img.icons8.com/ios-filled/100/60A5FA/instant-camera.png",
-    title: "Instant Transactions",
+    image: "/images/flashlight.png",
+    title: "Why buy bitcoin with us ?",
     text: "Bitcoin purchases are processed instantly with real-time confirmation.",
   },
   {
