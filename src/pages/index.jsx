@@ -6,6 +6,9 @@ import LiveMarket from "../api/livemarket";
 import FAQ from "../components/faq";
 import Team from "../components/team";
 import Testimony from "../components/testimony";
+import Btccard from "../components/btccard";
+import { Info } from "lucide-react";
+import InfoCard from "../components/info";
 
 function Home() {
   return (
@@ -141,7 +144,13 @@ function Home() {
           <LiveMarket />
         </div>
       </section>
-
+      <section className="bg-white">
+        <InfoCard></InfoCard>
+      </section>
+      <section className="bg-white">
+        {/* live */}
+        <Btccard></Btccard>
+      </section>
       <section>
         <Team />
       </section>
